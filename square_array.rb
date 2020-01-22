@@ -8,8 +8,9 @@ end
 def square_array(array)
   # your code here
   new_arr = []
+  i = 0
   while i < array.length do 
-    
-  s = array.each {|num| num**2}
-  return s
+  new_arr << array[i]**2  
+  i += 1 
+  end 
 end
